@@ -1,0 +1,189 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* Reset */
+body {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  width: 100%;
+}
+
+.container {
+  width: 1050px;
+  height: 70px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+  position: relative;
+}
+
+#Write {
+  font-weight: 700;
+  font-size: 36px;
+  color: #111111;
+  text-decoration: none;
+  line-height: 43px;
+}
+
+
+.logo p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav {
+  width: 700px;
+  height: 80px;
+ display: inline-block;
+ /* background-color: red; */
+ line-height: 80px;
+ position: absolute;
+ top: 50px;
+ right: 24px;
+}
+.nav ul {
+  display: flex;
+  display: inline-block;
+  margin-right: 240px;
+  /* background-color: aquamarine; */
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  color: #111111;
+}
+.nav ul li + li {
+  margin-left: 35px;
+}
+.img {
+  width: 100%;
+  display: block;
+}
+
+.header_img {
+  margin: 0 auto;
+  width: 1050px;
+}
+
+.header_img img {
+  display: block;
+  width: 1050px;
+  height: 500px;
+}
+.img_text {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  font-size: 27px;
+  font-weight: 400;
+  color: #777777;
+  height: 100px;
+  line-height: 50px;
+  display: block;
+  /* position: absolute; */
+}
+
+#content {
+  background-color: green;
+  display: inline-block;
+}

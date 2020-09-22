@@ -114,7 +114,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 40px 0 80px;
+  padding: 65px 0 80px;
   position: relative;
 }
 
@@ -138,7 +138,7 @@ body {
  /* background-color: red; */
  line-height: 80px;
  position: absolute;
- top: 50px;
+ top: 80px;
  right: 24px;
 }
 .nav ul {
@@ -183,7 +183,151 @@ body {
   /* position: absolute; */
 }
 
+.fa-search {
+  font-size: 25px;
+  position: absolute;
+  top: 110px;
+  right: 0;
+  /* padding:65px 0; */
+}
+
 #content {
-  background-color: green;
+  height: 1300px;
+  width: 1050px;
+  margin: 0 auto;
+}
+.post-summary {
+  margin-bottom: 80px;
+}
+.post-summary article {
+  display: flex;
+}
+
+.time {
+  font-size: 17px;
+  font-weight: 400;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+}
+
+.main-text {
+  width: 700px;
+  height: 150px;
+  margin-left:230px;
+}
+
+.main-text h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.main-text p {
+  font-size: 17px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+  margin-top: 40px;
+}
+
+#supplementary {
+  padding-top: 200px;
+  width: 1050px;
+  height: 700px;
+  margin: 0 auto;
+  /* background-color: #ff9; */
+}
+
+.footer-area {
+  height: 450px;
+  /* background-color: aqua; */
+}
+
+hr {
+  margin: 0;
+}
+.aside-wrapper {
+  margin: 70px 0;
+  width: 1050px;
+  height: 300px;
+  display: flex;
+  /* background-color: brown; */
+}
+
+.aside1 {
+  height: 300px;
+  width: 260px;
+  background-color: aquamarine;
+  position: relative;
+}
+
+.aside1 img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.aside1 p {
+  margin-top: 15px;
+  height: 29px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #666666;
+}
+.aside1 ul {
   display: inline-block;
+  display: flex;
+}
+.aside1 ul .name {
+  font-size: 30px;
+}
+.aside1 ul .font{
+float: left;
+}
+.aside1 ul li {
+  list-style: none;
+}
+/* .aside1 ul .name {
+  font-size: 19px;
+} */
+.aside2 p {
+  margin-top: 15px;
+  height: 29px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #666666;
+}
+.aside3 p {
+  margin-top: 15px;
+  height: 29px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #666666;
+}
+.aside4 p {
+  margin-top: 15px;
+  height: 29px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #666666;
+}
+.aside2 {
+  height: 300px;
+  width: 210px;
+  margin-left: 100px;
+}
+.aside3 {
+  height: 300px;
+  width: 130px;
+  margin-left: 60px;
+}
+.aside4 {
+  height: 300px;
+  width: 230px;
+  margin-left:100px;
 }

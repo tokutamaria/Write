@@ -258,8 +258,25 @@ hr {
 .aside1 {
   height: 300px;
   width: 260px;
-  background-color: aquamarine;
   position: relative;
+}
+
+.aside-wrapper5 {
+  display: flex;
+}
+.aside-wrapper5 h2 {
+  margin-top: 24px;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+.fab,.fas {
+  margin-left: 24px;
+display: inline-block;
+text-align: center;
 }
 
 .aside1 img{

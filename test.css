@@ -1,0 +1,63 @@
+.news > li {
+   margin-bottom: 16px;
+}
+.news span {
+   display: block;
+   width: 193px;
+}
+
+.profile-box {
+   display: block;
+   padding-right: 75px;
+   padding-bottom: 75px;
+   flex-basis: 335px;
+}
+
+.category li {
+   margin-bottom: 14px;
+}
+
+.footer-box-top > aside:nth-child(2){
+   padding-right: 19px;
+}
+
+.footer-box-top > aside:nth-child(3){
+   padding: 0 19px;
+}
+
+.footer-box-top > aside:last-child {
+   padding-left: 19px;
+}
+
+.footer-box-top > aside,
+.footer-box-top > div {
+   width: 25%;
+}
+.footer-box-buttom {
+   width: 700px;
+   float: right;
+}
+
+.footer-search {
+   padding-left: 25px;
+}
+.footer-box-top{
+   margin-top: 75px;
+}
+
+.footer-box-buttom > .sns-icon {
+   top: 25px;
+}
+
+
+.footer-box-buttom {
+   margin-bottom: 75px;
+}
+
+.footer-search {
+   padding: 10px;
+}
+
+.footer-search {
+   margin-top: 50px;
+}
